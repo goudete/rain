@@ -22,9 +22,7 @@ export class Database {
         return this.invoices[id];
     }
 
-    getAllInvoices() {
-
-    }
+    getAllInvoices() {}
 
     getLineItemsByInvoiceIds(invoiceId: string) {
         const lineItemsById = []
@@ -49,11 +47,7 @@ export class Database {
 
     }
 
-    getLineItems(id: string) {
-        
-    }
+    getLineItems(id: string) {}
 
-    getAllLineItems() {
-
-    }
+    getAllLineItems() {}
 }
